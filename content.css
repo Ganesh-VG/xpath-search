@@ -1,0 +1,44 @@
+#xpath-search-panel {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    width: 600px;
+    background-color: #222;
+    color: white;
+    padding: 8px;
+    border: 1px solid #555;
+    z-index: 10000;
+    font-family: Arial, sans-serif;
+}
+
+
+#xpath-search-panel input[type="text"] {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: white;
+}
+
+#xpath-search-panel button {
+    width: 100%;
+    padding: 2px;
+    font-size: 12px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+#xpath-search-panel #result {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    white-space: pre-wrap;
+    background-color: #111;
+    padding: 3px;
+    border: 1px solid #555;
+    max-height: 85px;
+    overflow-y: auto;
+}
